@@ -16,7 +16,7 @@
                 </a>
 
                 <div class="px-10 flex items-center space-x-5">
-                    <a class="text-2xl font-bold hover:text-[#aa674a] duration-100" href="Wiki.php" > WikiBuilds </a>
+                    <a class="text-2xl font-bold hover:text-[#aa674a] duration-100" href="wiki.php" > WikiBuilds </a>
 
                     <a href="farming.php" class="text-2xl font-bold hover:text-[#aa674a] duration-100"> Farming Guide </a>
                 </div>  

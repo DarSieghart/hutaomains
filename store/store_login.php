@@ -19,4 +19,4 @@ if ($user['password'] != strip_tags($_POST['password'])) {
 
 session_start();
 $_SESSION['user'] = ["auth" => true, "user" => $user];
-return header("Location: http://localhost/HuTaoMains/login.php");
+return header("Location: http://localhost/HuTaoMains/index.php");

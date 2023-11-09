@@ -18,10 +18,11 @@ session_start();
             </a>
 
             <h1 class="text-2xl font-bold text-center"> Iniciar Sesion </h1>
-            <?php if (isset($_SESSION['error'])) { 
+            <?php 
+            if (isset($_SESSION['error'])) { 
                 $msg = $_SESSION['error'];
                 unset($_SESSION['error']);
-            echo "<h1> $msg </h1>";
+                echo "<h1> $msg </h1>";
             }
             ?>
 
