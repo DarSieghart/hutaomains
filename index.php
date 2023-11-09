@@ -28,7 +28,7 @@ session_start();
             <?php if (isset($_SESSION['user'])) { ?> 
             <button onclick="dropdown()" class="flex mx-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" type="button">
                 <span class="sr-only">Open user menu</span>
-                <img class="w-8 h-8 rounded-full" src="https://upload.wikimedia.org/wikipedia/commons/0/07/Juan_Per%C3%B3n_%28cropped%29.jpg" alt="user photo">
+                <img class="w-12 h-12 rounded-full" src="https://upload.wikimedia.org/wikipedia/commons/0/07/Juan_Per%C3%B3n_%28cropped%29.jpg" alt="user photo">
             </button>
             <?php } ?>
 
@@ -41,7 +41,7 @@ session_start();
    </nav>
         
     <?php if (isset($_SESSION['user'])) { ?> 
-   <div id="dropdownAvatar" class="z-10 absolute right-1     hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+   <div id="dropdownAvatar" class="z-10 absolute right-1 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
                 <div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
                 <div> <?= $_SESSION['user']['user']['name'] ?> </div>
                 <div class="font-medium truncate"><?= $_SESSION ['user']['user']['email'] ?></div>
@@ -60,14 +60,25 @@ session_start();
 
             <?php } ?>
 
+    
+    <?php if (!isset($_SESSION['user'])) {?>
     <div class="py-6">
         <h1 class="text-white text-center text-4xl font-semibold">Bienvenido a HuTaoMains!</h1>
     </div>
 
     <div class="text-white grid place-content-center h-1/2 ">
-        <h2>Aquí podria tener un muro el cual publica versiones y eventos nuevos</h2>
+        <h2>Inicia Sesión o Crea tu cuenta para poder acceder a la personalizacion de builds de WikiBuilds!</h2>
     </div>
+    <?php } ?>
+
+    <?php if (isset ($_SESSION['user'])) {?>
     
+        <div class="py-6">
+            <h2 class="text-white text-center h-1/2 font-semibold">Aca iran noticias de genshin impact y una pequeña guia de uso de HuTaoMains </h2>
+        </div>
+    
+    <?php } ?>
+     
 
  
     <script>
