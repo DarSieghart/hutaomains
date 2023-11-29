@@ -37,6 +37,8 @@ session_start();
                 </div>
 
                 <button type="submit" class="rounded-md py-2.5 px-9 bg-rose-600 hover:bg-rose-700 font-semibold"> Iniciar Sesion </button>
+
+                <a href="http://localhost/HuTaoMains/singup.php" class="hover:text-[#aa674a]">Crea tu cuenta aqui!</a>
             </form>
         </div>
     </div>
