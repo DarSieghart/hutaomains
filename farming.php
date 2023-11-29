@@ -21,6 +21,10 @@
                 </a>
 
                 <div class="px-10 flex items-center space-x-5">
+                    <a class="bg-gray-900 text-2xl font-bold hover:text-[#aa674a] duration-100"> Farming Guide </a>
+                </div>
+
+                <div class="px-10 flex items-center space-x-5">
                     <a class="text-2xl font-bold hover:text-[#aa674a] duration-100" href="wiki.php" > WikiBuilds </a>
                 </div>  
             
@@ -35,13 +39,14 @@
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
             </svg>
         </div>
-        <input type="search" id="default-search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Mockups, Logos..." required>
+        <input type="search" id="default-search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Silk Flower" required>
         <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Buscar</button>
     </div>
 </form>
 
 
-
+    <div>
+        <nav>
         <?php if (isset($_SESSION['user'])) { ?> 
             <button onclick="dropdown()" class="flex mx-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" type="button">
                 <span class="sr-only">Open user menu</span>
@@ -75,16 +80,20 @@
          <?php } ?>
 
 
-   <div class="flex">
+   <div class="flex flex-row">
        <aside class="overflow-y-scroll overflow-auto py-4 h-[500px] p-1 m-4 rounded-md bg-rose-600 w-1/6 ">
             
             <div class="">
                 <a href="http/localhost/character/<?= $character ?>" id="mostrarBoton" class="bg-zinc-800 rounded-md px-9 text-center flex items-center text-white font-bold m-4 "> <img  src="https://pm1.aminoapps.com/7787/e631d93cc66f03474724492c8a189033cd5aea9cr1-750-749v2_uhq.jpg" class="w-16 h-16 object-cover object-center" alt=""> Hu Tao</a>
             </div>
         </aside>
-
-        <div id="div" class="z-10 bg-[#ef4444] h-3/4 w-2/3 rounded-md py-4 h-[500] p-2 m-4">
-
+            <!-- Modified  -->
+        <div id="div" class="z-10 bg-[#ef4444] h-3/4 w-3/5 rounded-md py-4 h-[500] p-2 m-4 flex flex-row">
+            
+            <img class="rounded-2xl w-1/2 h-1/2" src="assets/img/MapaDeEjemplo.png" alt="Ruta">
+            <aside class="w-1/3 h-full flex ml-auto rounded-md bg-rose-400">
+                <h1>materiales qlos</h1>
+            </aside>
         </div>
             
         <img class="overflow-hidden absolute ml-[500]" src="http://localhost/HuTaoMains/assets/img/hu_tao_genshin_impact_portrait_render_by_deg5270_deg0ooa-fullview.png" alt=""> 
@@ -104,10 +113,10 @@
     const JSONAPI = fetch("https://genshin.jmp.blue/characters/<?=$character?>")
         .then((res) => res.json())
         .then((character) => {
-            div.append(character['rarity']);
-            div.append(character['title']);
-            div.append(character['vision']);
-            div.append(character['gender']);
+            // div.append(character['rarity']);
+            // div.append(character['title']);
+            // div.append(character['vision']);
+            // div.append(character['gender']);
 
         });
     
