@@ -14,7 +14,7 @@ session_start();
         <div class="container mx-auto flex items-center justify-between">
             <div class="flex items-center">
                 <a href="index.php">
-                    <img class="w-20 h-20 hover:scale-110 duration-100" src="assets/img/logo.png">
+                    <img class="animate-spin w-20 h-20 hover:scale-110 duration-100" src="assets/img/logo.png">
                 </a>
                 <div class="px-10 flex items-center space-x-5">
                     
@@ -101,41 +101,63 @@ session_start();
 
     </aside>
     <div id="div" class="z-10 bg-[#ef4444] h-3/4 w-2/3 rounded-md py-4 h-[500] p-2 m-4 flex flex-row text-white space-x-2">
-            <div class="">
-                <div class="h-1/3 w-full bg-slate-950 flex flex-row justify-start rounded-t-md items-center px-2">
+            <div class="justify-center font-bold"> Composiciones
+                <div class="h-1/3 w-full bg-rose-600 flex flex-row justify-start rounded-t-md items-center px-2">
                     <div class="w-1/4 flex items-center justify-center">
-                        <img src="assets/img/avatar/Liyue/Hu Tao.png" class="bg-slate-900 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/avatar/Liyue/Hu Tao.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                     <div class="w-1/4 flex justify-center">
-                        <img src="assets/img/avatar/Sumeru/Layla.png" class="bg-slate-900 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/avatar/Sumeru/Layla.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                     <div class=" w-1/4 flex justify-center">
-                        <img src="assets/img/avatar/Fontaine/Furina.png" class="bg-slate-900 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/avatar/Fontaine/Furina.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                     <div class="w-1/4 flex justify-center">
-                        <img src="assets/img/avatar/Liyue/Yelan.png" class="bg-slate-900 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/avatar/Liyue/Yelan.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                 </div> 
     
-                <div class="h-1/3 w-full bg-slate-950 flex flex-row justify-start rounded-b-md items-center px-2">
+                <div class="h-1/3 w-full bg-rose-600 flex flex-row justify-start rounded-b-md items-center px-2">
                     <div class="w-1/4 flex items-center justify-center">
-                        <img src="assets/img/avatar/Liyue/Hu Tao.png" class="bg-slate-900 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/avatar/Liyue/Hu Tao.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                     <div class="w-1/4 flex justify-center">
-                        <img src="assets/img/avatar/Liyue/Xingqiu.png" class="bg-slate-900 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/avatar/Liyue/Xingqiu.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                     <div class=" w-1/4 flex justify-center">
-                        <img src="assets/img/avatar/Mondstadt/Bennett.png" class="bg-slate-900 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/avatar/Mondstadt/Bennett.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                     <div class="w-1/4 flex justify-center">
-                        <img src="assets/img/avatar/Liyue/Xiangling.png" class="bg-slate-900 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/avatar/Liyue/Xiangling.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                 </div> 
             </div>
-
-            <aside class="flex w-3/5 bg-rose-500">
-                <h1>albion online es un mmorpg no lineal en el que escribes tu propia historia sin limitarte a seguir un camino prefijado, explora un amplio mundo abierto con cinco biomas unicos, todo cuanto hagas tendra su repercusíon en el mundo, con su economia orientada al jugador de albion los jugadores crean practicamente todo el equipo a partir de los recursos que consiguen, el equipo que llevas define quien eres, cambia de arma y armadura para pasar de caballero a mago o juego como una mezcla de ambas clases, aventurate en el mundo abierto y haz frente a los habitantes y las criaturas de albion, inicia expediciones o adentrate en mazmorras en las que encontraras enemigos aun mas dificiles, enfrentate a otros jugadores en encuentros en el mundo abierto, lucha por los territorios o por ciudades enteras en batallas tacticas, relajate en tu isla privada donde podras construir un hogar, cultivar cosechas, criar animales, unete a un gremio, todo es mejor cuando se trabaja en grupo [musica] adentrate ya en el mundo de albion y escribe tu propia historia.</h1>
-            </aside>
+            
+            <div class="flex w-3/5 h-1/10 bg-rose-500">
+                <div class="">
+                    <div class="flex grow justify-center font-bold rounded-md">
+                        <h1>Armas</h1>
+                    </div>
+                    <div class="flex flex-row">
+                        <div class="flex flex-col w-full h-full">
+                            <div>
+                                <img class="bg-zinc-800 p-2 rounded-tl-md border-gray-700 border-2" src="assets/img/Weapons/Staff of homa.png" alt="Staff of homa">
+                            </div>
+                            <div>
+                                <img class="bg-zinc-800 p-2 rounded-bl-md border-gray-700 border-2" src="assets/img/Weapons/Primordial Jade Winged-Spear.png" alt="Jade">
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-full h-full">
+                            <div>
+                                <img class="bg-zinc-800 p-2 rounded-tr-md border-gray-700 border-2" src="assets/img/Weapons/Staff of the Scarlet Sands.png" alt="">
+                            </div>
+                            <div>
+                                <img class="bg-zinc-800 p-2 rounded-br-md border-gray-700 border-2" src="assets/img/Weapons/Ballad of the Fjords.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
 
     <img class="overflow-hidden absolute ml-[500]" src="http://localhost/HuTaoMains/assets/img/hu_tao_genshin_impact_portrait_render_by_deg5270_deg0ooa-fullview.png" alt=""> 

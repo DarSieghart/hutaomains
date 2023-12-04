@@ -21,10 +21,8 @@
                 </a>
 
                 <div class="px-10 flex items-center space-x-5">
-                    <a class="bg-gray-900 text-2xl font-bold hover:text-[#aa674a] duration-100"> Farming Guide </a>
-                </div>
-
-                <div class="px-10 flex items-center space-x-5">
+                    <a class="text-2xl font-bold hover:text-[#aa674a] duration-100"> Farming Guide </a>
+                
                     <a class="text-2xl font-bold hover:text-[#aa674a] duration-100" href="wiki.php" > WikiBuilds </a>
                 </div>  
             
@@ -89,11 +87,38 @@
         </aside>
             <!-- Modified  -->
         <div id="div" class="z-10 bg-[#ef4444] h-3/4 w-3/5 rounded-md py-4 h-[500] p-2 m-4 flex flex-row">
+            <h1> Ruta de Farmeo</h1>
+            <!-- <iframe src="https://youtu.be/OXwAZ8yvD7I" frameborder="0"></iframe>
+            <img class="rounded-2xl w-1/2 h-1/2" src="assets/img/MapaDeEjemplo.png" alt="">
             
-            <img class="rounded-2xl w-1/2 h-1/2" src="assets/img/MapaDeEjemplo.png" alt="Ruta">
-            <aside class="w-1/3 h-full flex ml-auto rounded-md bg-rose-400">
-                <h1>materiales qlos</h1>
-            </aside>
+            <div class="w-1/3 h-full flex ml-auto rounded-md bg-rose-600">
+                <h1 class="justify-center font-bold">Materiales</h1>
+            </div> -->
+            <div class="flex w-3/5 h-1/10 bg-rose-500">
+                <div class="">
+                    <div class="flex grow justify-center font-bold rounded-md">
+                        <h1>Materiales</h1>
+                    </div>
+                    <div class="flex flex-row">
+                        <div class="flex flex-col w-full h-full justify-center">
+                            <div>
+                                <img class="bg-zinc-800 p-2 rounded-tl-md border-gray-700 border-2" width="200" src="assets/img/Ascension Objects/Juvenil-Jade.png" alt="">
+                            </div>
+                            <div>
+                                <img class="bg-zinc-800 p-2 rounded-bl-md border-gray-700 border-2" width="200" src="assets/img/Ascension Objects/Whopperflower-Nectar.png" alt="">
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-full h-full">
+                            <div>
+                                <img class="bg-zinc-800 p-2 rounded-tr-md border-gray-700 border-2" width="200" src="assets/img/Ascension Objects/Agnidus-Agate-Silver.png" alt="">
+                            </div>
+                            <div>
+                                <img class="bg-zinc-800 p-2 rounded-br-md border-gray-700 border-2" width="200" src="assets/img/Ascension Objects/SIlk-Flower.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
             
         <img class="overflow-hidden absolute ml-[500]" src="http://localhost/HuTaoMains/assets/img/hu_tao_genshin_impact_portrait_render_by_deg5270_deg0ooa-fullview.png" alt=""> 
