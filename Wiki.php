@@ -104,31 +104,31 @@ session_start();
             <div class="justify-center font-bold"> Composiciones
                 <div class="h-1/3 w-full bg-rose-600 flex flex-row justify-start rounded-t-md items-center px-2">
                     <div class="w-1/4 flex items-center justify-center">
-                        <img src="assets/img/avatar/Liyue/Hu Tao.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/Character/Liyue/Hu Tao.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                     <div class="w-1/4 flex justify-center">
-                        <img src="assets/img/avatar/Sumeru/Layla.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/Character/Liyue/Xingqiu.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                     <div class=" w-1/4 flex justify-center">
-                        <img src="assets/img/avatar/Fontaine/Furina.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/Character/Liyue/Xiangling.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                     <div class="w-1/4 flex justify-center">
-                        <img src="assets/img/avatar/Liyue/Yelan.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/Character/Mondstadt/Bennett.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                 </div> 
     
                 <div class="h-1/3 w-full bg-rose-600 flex flex-row justify-start rounded-b-md items-center px-2">
                     <div class="w-1/4 flex items-center justify-center">
-                        <img src="assets/img/avatar/Liyue/Hu Tao.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/Character/Liyue/Hu Tao.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                     <div class="w-1/4 flex justify-center">
-                        <img src="assets/img/avatar/Liyue/Xingqiu.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/Character/Fontaine/Furina.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                     <div class=" w-1/4 flex justify-center">
-                        <img src="assets/img/avatar/Mondstadt/Bennett.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/Character/Liyue/Yelan.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                     <div class="w-1/4 flex justify-center">
-                        <img src="assets/img/avatar/Liyue/Xiangling.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/Character/Mondstadt/Bennett.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                 </div> 
             </div>
@@ -141,18 +141,18 @@ session_start();
                     <div class="flex flex-row">
                         <div class="flex flex-col w-full h-full">
                             <div>
-                                <img class="bg-zinc-800 p-2 rounded-tl-md border-gray-700 border-2" src="assets/img/Weapons/Staff of homa.png" alt="Staff of homa">
+                                <img class="bg-zinc-800 p-2 rounded-tl-md border-gray-700 border-2" src="assets/img/Weapons/Polearm/Staff of homa.png" alt="Staff of homa">
                             </div>
                             <div>
-                                <img class="bg-zinc-800 p-2 rounded-bl-md border-gray-700 border-2" src="assets/img/Weapons/Primordial Jade Winged-Spear.png" alt="Jade">
+                                <img class="bg-zinc-800 p-2 rounded-bl-md border-gray-700 border-2" src="assets/img/Weapons/Polearm/Primordial Jade Winged-Spear.png" alt="Jade">
                             </div>
                         </div>
                         <div class="flex flex-col w-full h-full">
                             <div>
-                                <img class="bg-zinc-800 p-2 rounded-tr-md border-gray-700 border-2" src="assets/img/Weapons/Staff of the Scarlet Sands.png" alt="">
+                                <img class="bg-zinc-800 p-2 rounded-tr-md border-gray-700 border-2" src="assets/img/Weapons/Polearm/Staff of the Scarlet Sands.png" alt="">
                             </div>
                             <div>
-                                <img class="bg-zinc-800 p-2 rounded-br-md border-gray-700 border-2" src="assets/img/Weapons/Ballad of the Fjords.png" alt="">
+                                <img class="bg-zinc-800 p-2 rounded-br-md border-gray-700 border-2" src="assets/img/Weapons/Polearm/Ballad of the Fjords.png" alt="">
                             </div>
                         </div>
                     </div>
