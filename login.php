@@ -6,10 +6,13 @@
     <script src="assets/js/index.js"></script>
 </head>
 <?php
-include("header.php");
+
 session_start();
-?>  
-<div class="bg-[#240f0c] h-[82.5%]"> 
+?>
+<body class= "bg-[#240f0c] ">
+    
+
+<div class="bg-[#240f0c] h-[82.5%] "> 
 
     <div class="flex justify-center items-center h-full">
         <div class="bg-[#0c0a09] text-white py-6 px-4 flex flex-col space-y-3 items-center rounded-md w-1/3">
@@ -45,6 +48,7 @@ session_start();
     
 </div>
 
-<?php
-include("footer.php")
-?>
+</body>  
+
+
+</html>
