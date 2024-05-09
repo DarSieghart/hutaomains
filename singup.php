@@ -18,16 +18,16 @@ session_start()
 
             <form method="post" action="store/store_register.php" class="flex flex-col justify-center space-y-3 items-center w-full">
             <div class="w-1/2">
-                    <label for="email"> Nombre de la cuenta </label>
-                    <input type="text" class="rounded-md w-full text-black" name="name" autocomplete="off">
+                    <label for="name"> Nombre de la cuenta </label>
+                    <input type="text" class="rounded-md w-full text-black" name="name" autocomplete="off" required>
                 </div>    
                 <div class="w-1/2">
                     <label for="email"> Email </label>
-                    <input type="text" class="rounded-md w-full text-black" name="email" autocomplete="off">
+                    <input type="email" class="rounded-md w-full text-black" name="email" autocomplete="off" required>
                 </div>
                 <div class="w-1/2">
                     <label for="password"> Contraseña </label>
-                    <input type="password" class="rounded-md w-full text-black" name="password" autocomplete="off"> 
+                    <input type="password" class="rounded-md w-full text-black" name="password" autocomplete="off" required> 
                 </div>  
 
                 <button type="submit" class="rounded-md py-2.5 px-9 bg-rose-600 hover:bg-rose-700 font-semibold"> Crear cuenta </button>
