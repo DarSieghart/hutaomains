@@ -20,6 +20,7 @@ session_start();
                     
 
                     <a href="farming.php" class="text-2xl font-bold hover:text-[#aa674a] duration-100"> Farming Guide </a>
+                    <a href="Wiki.php" class="text-2xl font-bold hover:text-[#aa674a] duration-100"> WikiBuilds </a>
                 </div>  
             </div>
 
@@ -104,7 +105,7 @@ session_start();
             <div class="justify-center font-bold"> Composiciones
                 <div class="h-1/3 w-full bg-rose-600 flex flex-row justify-start rounded-t-md items-center px-2">
                     <div class="w-1/4 flex items-center justify-center">
-                        <img src="assets/img/Character/Liyue/Hu Tao.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
+                        <img src="assets/img/Character/Liyue/Shenhe.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
                     <div class="w-1/4 flex justify-center">
                         <img src="assets/img/Character/Liyue/Xingqiu.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">

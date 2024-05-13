@@ -88,10 +88,14 @@
             <!-- Modified  -->
         <div id="div" class="z-10 bg-[#ef4444] h-3/4 w-3/5 rounded-md py-4 h-[500] p-2 m-4 flex flex-row">
             <h1> Ruta de Farmeo</h1>
-            <!-- <iframe src="https://youtu.be/OXwAZ8yvD7I" frameborder="0"></iframe>
-            <img class="rounded-2xl w-1/2 h-1/2" src="assets/img/MapaDeEjemplo.png" alt="">
+            <div>
+                <a href="https://youtu.be/OXwAZ8yvD7I" class="bg-blue-600 border-2 rounded-none">Ver Ruta</a>
+            </div>
+            <!--<div>
+                <iframe src="https://youtu.be/OXwAZ8yvD7I" frameborder="0"></iframe>
+            </div>
             
-            <div class="w-1/3 h-full flex ml-auto rounded-md bg-rose-600">
+             <div class="w-1/3 h-full flex ml-auto rounded-md bg-rose-600">
                 <h1 class="justify-center font-bold">Materiales</h1>
             </div> -->
             <div class="flex w-3/5 h-1/10 bg-rose-500">
