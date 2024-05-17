@@ -75,7 +75,6 @@ session_start();
     </div>
         
     
-
 <div id="default-carousel" class="relative w-full" data-carousel="slide">
    
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
@@ -83,12 +82,12 @@ session_start();
         <div class=" duration-700 ease-in-out" data-carousel-item>
             <img src="assets/img/Stars-Shining-Depths-official-wallpaper-genshin.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
-        
+
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <img src="assets/img/wallpaper_for_wanderer_.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>    
-                 
-       
+        </div>
+    
+    
     </div>
     
     <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
@@ -116,7 +115,6 @@ session_start();
         </span>
     </button>
 </div>
-
 
     <div class="text-white grid place-content-center h-1/2 ">
         <h2>Inicia Sesión o Crea tu cuenta para poder acceder a la personalizacion de builds de WikiBuilds!</h2>
