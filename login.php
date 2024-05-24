@@ -2,23 +2,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+<style>
+.glow-button {
+border: none;
+outline: none;
+color: white;
+background-color: #7f1d1d;
+padding: 10px 20px;
+cursor: pointer;
+font-size: 16px;
+border-radius: 10px;
+transition: box-shadow 0.3s ease;
+}
+
+.glow-button:hover {
+box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+</style>
     <title>Iniciar Sesion</title>
     <script src="assets/js/index.js"></script>
+
 </head>
 <?php
 
 session_start();
 ?>
-<body class= "bg-[#240f0c] ">
+<body class= "bg-[#393E46] ">
     
 
-<div class="bg-[#240f0c] h-[82.5%] "> 
-
-    <div class="flex justify-center items-center h-full">
-        <div class="bg-[#0c0a09] text-white py-6 px-4 flex flex-col space-y-3 items-center rounded-md w-1/3">
+<div class="h-[100%]">  
+    
+<img class="z-10 fixed saturate-100" src="assets/img/i-love-that-liyue-looks-so-beautiful-and-scenic-during-this-v0-w9ywf9by2qe81.png">
+    <div class="z-50 absolute flex justify-center items-center h-full w-full">
+        <div class="backdrop-blur-sm shadow-2xl saturate-200 text-white py-6 px-4 flex flex-col space-y-3 items-center rounded-md w-1/3">
             <a href="index.php">
                 <img class="w-20 h-20 hover:scale-110 duration-100" src="assets/img/logo.png">
             </a>
+
+
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
             <h1 class="text-2xl font-bold text-center"> Iniciar Sesion </h1>
             <?php 
@@ -39,9 +62,9 @@ session_start();
                     <input type="password" class="rounded-md w-full text-black" name="password" autocomplete="off"> 
                 </div>
 
-                <button type="submit" class="rounded-md py-2.5 px-9 bg-rose-600 hover:bg-rose-700 font-semibold"> Iniciar Sesion </button>
+                <button  class="glow-button" > Iniciar Sesion </button>
 
-                <a href="http://localhost/HuTaoMains/singup.php" class="hover:text-[#aa674a]">Crea tu cuenta aqui!</a>
+                <button href="http://localhost/HuTaoMains/singup.php" class="glow-button">Crea tu cuenta aqui!</button>
             </form>
         </div>
     </div>

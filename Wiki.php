@@ -19,8 +19,8 @@ session_start();
                 <div class="px-10 flex items-center space-x-5">
                     
 
-                    <a href="farming.php" class="text-2xl font-bold hover:text-[#aa674a] duration-100"> Farming Guide </a>
-                    <a href="Wiki.php" class="text-2xl font-bold hover:text-[#aa674a] duration-100"> WikiBuilds </a>
+                    <a href="farming.php" class="text-2xl font-bold hover:text-rose-600 duration-100"> Farming Guide </a>
+                    
                 </div>  
             </div>
 

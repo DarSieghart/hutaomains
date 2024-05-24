@@ -19,11 +19,11 @@ session_start();
                 </a>
 
                 <div class="px-60 flex items-center space-x-20">
-                    <a href="wiki.php" class="text-2xl font-bold hover:text-[#aa674a] duration-10"> WikiBuilds </a>
+                    <a href="wiki.php" class="text-2xl font-bold hover:text-rose-600 duration-10"> WikiBuilds </a>
 
-                    <a href="farming.php" class="text-2xl font-bold hover:text-[#aa674a] duration-100"> Farming  </a>
+                    <a href="farming.php" class="text-2xl font-bold hover:text-rose-600 duration-100"> Farming  </a>
                    
-                    <a href="weapons.php" class="text-2xl font-bold hover:text-[#aa674a] duration-100">Weapons</a> 
+                    <a href="weapons.php" class="text-2xl font-bold hover:text-rose-600 duration-100">Weapons</a> 
 
                 </div>  
             </div>
@@ -75,9 +75,9 @@ session_start();
     </div>
         
     
-<div id="default-carousel" class="relative w-full" data-carousel="slide">
+<div id="default-carousel" class="relative w-full " data-carousel="slide">
    
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+    <div class="relative h overflow-hidden rounded-lg md:h-96">
       
         <div class=" duration-700 ease-in-out" data-carousel-item>
             <img src="assets/img/Stars-Shining-Depths-official-wallpaper-genshin.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
@@ -116,9 +116,7 @@ session_start();
     </button>
 </div>
 
-    <div class="text-white grid place-content-center h-1/2 ">
-        <h2>Inicia Sesión o Crea tu cuenta para poder acceder a la personalizacion de builds de WikiBuilds!</h2>
-    </div>
+    
     <?php } ?>
 
     <?php if (isset ($_SESSION['user'])) {?>
@@ -129,9 +127,24 @@ session_start();
     
     <?php } ?>
      
-
+    <video id="ee" class="hidden right-2 bottom-2 sticky rounded-full h-[15rem] w-[15rem] object-center object-cover" loop autoplay muted>
+        <source src="assets/video/videoplayback.mp4" type="video/mp4">
+    </video>
+    <audio id="audioee" loop>     
+        <source src="assets/video/814e8eba-a927-495f-a38e-8131d67a2b3f.ogg" type="video/ogg">
+    </audio>
  
     <script>
+        
+       const ee = document.getElementById('ee')  
+        const audi = document.getElementById('audioee')
+
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey && event.key === 'ñ') {
+                ee.classList.remove('hidden')
+                audi.play()
+            }
+        });
 
         function dropdown() {
             const dropdownAvatar = document.getElementById("dropdownAvatar")
@@ -139,7 +152,7 @@ session_start();
             dropdownAvatar.classList.toggle("hidden")
         }
 
-    </script>
+    </script> 
  </body>
 
  </html>

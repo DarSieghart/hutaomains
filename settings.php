@@ -10,7 +10,7 @@ session_start();
     <link rel="stylesheet" href="assets/css/index.css"> 
     <script src="assets/js/index.js"></script>
 </head>
-<body class="bg-[#18181b]">
+<body class="bg-[#393E46]">
     <nav class="py-4 text-white border-b border-gray-500 w-full">
         <div class="container mx-auto flex items-center justify-between">
             <div class="flex items-center">
@@ -18,9 +18,9 @@ session_start();
                     <img class="animate-spin w-20 h-20 hover:scale-110 duration-100" src="assets/img/logo.png">
                 </a>
                 <div class="px-10 flex items-center space-x-5">
-                    <a href="Wiki.php" class="text-2xl font-bold hover:text-[#aa674a] duration-100"> WikiBuilds </a>
+                    <a href="Wiki.php" class="text-2xl font-bold hover:text-rose-600 duration-100"> WikiBuilds </a>
                     
-                    <a href="farming.php" class="text-2xl font-bold hover:text-[#aa674a] duration-100"> Farming Guide </a>
+                    <a href="farming.php" class="text-2xl font-bold hover:text-rose-600 duration-100"> Farming Guide </a>
                 </div>
             </div>  
         </div>

@@ -21,16 +21,16 @@
                 </a>
 
                 <div class="px-10 flex items-center space-x-5">
-                    <a class="text-2xl font-bold hover:text-[#aa674a] duration-100"> Farming Guide </a>
+                    
                 
-                    <a class="text-2xl font-bold hover:text-[#aa674a] duration-100" href="wiki.php" > WikiBuilds </a>
+                    <a class="text-2xl font-bold hover:text-rose-600 duration-100" href="wiki.php" > WikiBuilds </a>
                 </div>  
             
             </div>
 
            
 <form>   
-    <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Buscar</label>
+  
     <div class="relative">
         <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
             <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
