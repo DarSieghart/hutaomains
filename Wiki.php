@@ -14,7 +14,7 @@ session_start();
         <div class="container mx-auto flex items-center justify-between">
             <div class="flex items-center">
                 <a href="index.php">
-                    <img class="animate-spin w-20 h-20 hover:scale-110 duration-100" src="assets/img/logo.png">
+                    <img class="animate-spin w-20 h-20 hover:scale-105 duration-100" src="assets/img/logo.png">
                 </a>
                 <div class="px-10 flex items-center space-x-5">
                     
