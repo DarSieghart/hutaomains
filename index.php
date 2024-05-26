@@ -9,8 +9,6 @@ session_start();
     <link rel="stylesheet" href="assets/css/index.css">
     <script src="assets/js/index.js"></script>
     <!-- ONLY FOR LOCAL PROPORSES NOT DEPLOY -->
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 </head>
 
 
