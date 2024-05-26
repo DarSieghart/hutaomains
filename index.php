@@ -52,6 +52,7 @@ session_start();
             <?php } ?>
         </div>
    </nav>
+    </header>
         
     <?php if (isset($_SESSION['user'])) { ?> 
 
@@ -83,21 +84,20 @@ session_start();
         
     
     <!-- CAROUSEL -->
-    <section id="image-carousel" class="splide" aria-label="Beautiful Images">
-        <div class="splide__track">
-            <ul class="splide__list">
-                <li class="w-full h-auto">
-                    <img src="assets/img/wallpaper_for_wanderer_.jpeg" alt="">
-                </li>
-                <li class="w-full h-auto">
-                    <img src="assets/img/Stars-Shining-Depths-official-wallpaper-genshin.jpg" alt="">
-                </li>
-                <li class="w-full h-auto">
-                    <img src="assets/img/i-love-that-liyue-looks-so-beautiful-and-scenic-during-this-v0-w9ywf9by2qe81.png" alt="">
-                </li>
-            </ul>
-        </div>
-    </section>
+    <div class="w-full flex justify-center items-center">
+        <section id="carousel-container" aria-label="Carousel" class="flex relative rounded-md w-[600px] h-[400px] overflow-hidden shadow-[rgba(0,0,0,0.4)] shadow-md">
+            <div id="carousel-images" class="flex flex-row transform ease-out">
+                <img class="imgdata w-[600px] h-[400px] object-cover" data-desc="" src="assets/img/Stars-Shining-Depths-official-wallpaper-genshin.jpg" alt="">
+                <img class="imgdata w-[600px] h-[400px] object-cover" data-desc="" src="assets/img/wallpaper_for_wanderer_.jpeg" alt="">
+                <img class="imgdata w-[600px] h-[400px] object-cover" data-desc="" src="assets/img/i-love-that-liyue-looks-so-beautiful-and-scenic-during-this-v0-w9ywf9by2qe81.png" alt="">
+            </div>
+            
+            <div class="user-controls flex justify-between text-white font-extrabold ">
+                <button class="user-controls z-10 absolute left-0 m-0 w-[3rem] h-full bg-gradient-to-r from-black to-transparent opacity-75" id="previous"><svg class="flex justify-center w-full"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M5 12l6 6" /><path d="M5 12l6 -6" /></svg></button>
+                <button class="user-controls z-10 absolute right-0  m-0 w-[3rem] h-full bg-gradient-to-l from-black to-transparent opacity-75" id="next"><svg class="rotate-180 flex justify-center w-full"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M5 12l6 6" /><path d="M5 12l6 -6" /></svg></button>
+            </div>
+        </section>
+    </div>
     
     <?php } ?>
 
@@ -134,7 +134,47 @@ session_start();
             dropdownAvatar.classList.toggle("hidden")
         }
         
-        new Splide( '#image-carousel' ).mount();
+        // For carousel porpuses 
+        const imageContainer = document.getElementById('carousel-images');
+        const images = document.querySelectorAll('.imgdata');
+        const buttons = document.querySelectorAll('.user-controls button');
+
+        let interval = setInterval(runCarousel, 5000);
+        let index = 0;
+
+        function runCarousel() {
+            index++;
+            checkOutBoundConditions();
+            changeImage(); 
+        }
+
+        function checkOutBoundConditions() {
+            if(index === images.length) {
+                index = 0;
+            }
+
+            if (index < 0) {
+                index = images.length - 1;
+            }
+            
+        }
+
+        function changeImage() {
+            imageContainer.style.transform = `translateX(${-index * 600}px)`
+        }
+
+        buttons.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                if(btn.id === 'previous') {
+                    index--;
+                } else if (btn.id === 'next') {
+                    index++;
+                }
+                checkOutBoundConditions();
+                changeImage();
+            })
+        });
     
     </script> 
  </body>

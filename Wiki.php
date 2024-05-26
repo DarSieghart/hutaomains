@@ -101,7 +101,7 @@ session_start();
     </button>
 
     </aside>
-    <div id="div" class="z-10 bg-[#ef4444] h-3/4 w-2/3 rounded-md py-4 h-[500] p-2 m-4 flex flex-row text-white space-x-2">
+    <div id="div" class="z-10 bg-[#ef4444] h-3/4 w-2/3 rounded-md py-4 p-2 m-4 flex flex-row text-white space-x-2">
             <div class="justify-center font-bold"> Composiciones
                 <div class="h-1/3 w-full bg-rose-600 flex flex-row justify-start rounded-t-md items-center px-2">
                     <div class="w-1/4 flex items-center justify-center">

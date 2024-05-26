@@ -85,7 +85,7 @@
             </div>
         </aside>
             <!-- Modified  -->
-        <div id="div" class="z-10 bg-[#ef4444] h-3/4 w-3/5 rounded-md py-4 h-[500] p-2 m-4 flex flex-row">
+        <div id="div" class="z-10 bg-[#ef4444] h-3/4 w-3/5 rounded-md py-4 p-2 m-4 flex flex-row">
             <h1> Ruta de Farmeo</h1>
             <div>
                 <a href="https://youtu.be/OXwAZ8yvD7I" class="bg-blue-600 border-2 rounded-none">Ver Ruta</a>
