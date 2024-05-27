@@ -14,7 +14,7 @@ session_start();
         <div class="container mx-auto flex items-center justify-between">
             <div class="flex items-center">
                 <a href="index.php">
-                    <img class="animate-spin w-20 h-20 hover:scale-110 duration-100" src="assets/img/logo.png">
+                    <img class="animate-spin w-20 h-20 hover:scale-105 duration-100" src="assets/img/logo.png">
                 </a>
                 <div class="px-10 flex items-center space-x-5">
                     
@@ -101,7 +101,7 @@ session_start();
     </button>
 
     </aside>
-    <div id="div" class="z-10 bg-[#ef4444] h-3/4 w-2/3 rounded-md py-4 h-[500] p-2 m-4 flex flex-row text-white space-x-2">
+    <div id="div" class="z-10 bg-[#ef4444] h-3/4 w-2/3 rounded-md py-4 p-2 m-4 flex flex-row text-white space-x-2">
             <div class="justify-center font-bold"> Composiciones
                 <div class="h-1/3 w-full bg-rose-600 flex flex-row justify-start rounded-t-md items-center px-2">
                     <div class="w-1/4 flex items-center justify-center">

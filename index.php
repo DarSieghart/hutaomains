@@ -8,18 +8,21 @@ session_start();
     <title>HuTaoMains</title>
     <link rel="stylesheet" href="assets/css/index.css">
     <script src="assets/js/index.js"></script>
+    <!-- ONLY FOR LOCAL PROPORSES NOT DEPLOY -->
 </head>
+
+
 <body class="bg-[#393E46]">
    <header> 
    <nav class="py-4 text-white bg-[#393E46] border-b border-red-500">
         <div class="container mx-auto flex items-center justify-between">
             <div class="flex items-center">
                 <a href="index.php">
-                    <img class="w-30 h-12 hover:scale-150 duration-100" src="assets/img/ñam.png">
+                    <img class="w-30 h-12 hover:scale-110 duration-200" src="assets/img/icon.png">
                 </a>
 
                 <div class="px-60 flex items-center space-x-20">
-                    <a href="wiki.php" class="text-2xl font-bold hover:text-rose-600 duration-10"> WikiBuilds </a>
+                    <a href="wiki.php" class="text-2xl font-bold hover:text-rose-600 duration-100"> WikiBuilds </a>
 
                     <a href="farming.php" class="text-2xl font-bold hover:text-rose-600 duration-100"> Farming  </a>
                    
@@ -47,8 +50,11 @@ session_start();
             <?php } ?>
         </div>
    </nav>
+    </header>
         
     <?php if (isset($_SESSION['user'])) { ?> 
+
+    <!-- no sense dropdown 💀-->
    <div id="dropdownAvatar" class="z-10 absolute right-1 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
                 <div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
                 <div> <?= $_SESSION['user']['user']['name'] ?> </div>
@@ -74,6 +80,7 @@ session_start();
         <h1 class="text-white text-center text-4xl font-semibold">Bienvenido a HuTaoMains!</h1>
     </div>
         
+<<<<<<< HEAD
 <div class="carousel-container">
   <div class="carousel-item">
     <img src="assets/img/WallpaperHome.jpg" alt="Imagen 1">
@@ -88,6 +95,25 @@ session_start();
 <button id="prevBtn">Anterior</button>
 <button id="nextBtn">Siguiente</button>
 
+=======
+    
+    <!-- CAROUSEL -->
+    <div class="w-full flex justify-center items-center">
+        <section id="carousel-container" aria-label="Carousel" class="flex relative rounded-md w-[600px] h-[400px] overflow-hidden shadow-[rgba(0,0,0,0.4)] shadow-md">
+            <div id="carousel-images" class="flex flex-row transform ease-out">
+                <img class="imgdata w-[600px] h-[400px] object-cover" data-desc="" src="assets/img/Stars-Shining-Depths-official-wallpaper-genshin.jpg" alt="">
+                <img class="imgdata w-[600px] h-[400px] object-cover" data-desc="" src="assets/img/wallpaper_for_wanderer_.jpeg" alt="">
+                <img class="imgdata w-[600px] h-[400px] object-cover" data-desc="" src="assets/img/i-love-that-liyue-looks-so-beautiful-and-scenic-during-this-v0-w9ywf9by2qe81.png" alt="">
+            </div>
+            
+            <div class="user-controls flex justify-between text-white font-extrabold ">
+                <button class="user-controls z-10 absolute left-0 m-0 w-[3rem] h-full bg-gradient-to-r from-black to-transparent opacity-75" id="previous"><svg class="flex justify-center w-full"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M5 12l6 6" /><path d="M5 12l6 -6" /></svg></button>
+                <button class="user-controls z-10 absolute right-0  m-0 w-[3rem] h-full bg-gradient-to-l from-black to-transparent opacity-75" id="next"><svg class="rotate-180 flex justify-center w-full"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M5 12l6 6" /><path d="M5 12l6 -6" /></svg></button>
+            </div>
+        </section>
+    </div>
+    
+>>>>>>> f58f475db06ba090ff918cee95569b2ffb22e5d3
     <?php } ?>
 
     <?php if (isset ($_SESSION['user'])) {?>
@@ -107,7 +133,7 @@ session_start();
  
     <script>
         
-       const ee = document.getElementById('ee')  
+        const ee = document.getElementById('ee')  
         const audi = document.getElementById('audioee')
 
         document.addEventListener('keydown', function(event) {
@@ -122,7 +148,49 @@ session_start();
 
             dropdownAvatar.classList.toggle("hidden")
         }
+        
+        // For carousel porpuses 
+        const imageContainer = document.getElementById('carousel-images');
+        const images = document.querySelectorAll('.imgdata');
+        const buttons = document.querySelectorAll('.user-controls button');
 
+        let interval = setInterval(runCarousel, 5000);
+        let index = 0;
+
+        function runCarousel() {
+            index++;
+            checkOutBoundConditions();
+            changeImage(); 
+        }
+
+        function checkOutBoundConditions() {
+            if(index === images.length) {
+                index = 0;
+            }
+
+            if (index < 0) {
+                index = images.length - 1;
+            }
+            
+        }
+
+        function changeImage() {
+            imageContainer.style.transform = `translateX(${-index * 600}px)`
+        }
+
+        buttons.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                if(btn.id === 'previous') {
+                    index--;
+                } else if (btn.id === 'next') {
+                    index++;
+                }
+                checkOutBoundConditions();
+                changeImage();
+            })
+        });
+    
     </script> 
  </body>
 
