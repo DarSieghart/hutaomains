@@ -12,7 +12,7 @@ session_start()
 <div class="flex justify-center items-center h-full">
     <div  class="bg-[#0c0a09] text-white py-6 px-4 flex flex-col space-y-3 items-center rounded-md w-1/3">
 
-    <a href="index.php">
+            <a href="index.php">
                 <img class="w-20 h-20 hover:scale-110 duration-100" src="assets/img/logo.png">
             </a>
 
@@ -42,6 +42,12 @@ session_start()
     </div>
 
 </div>
-    
+
+
+
+
+
+
+
 </body>
 </html>
