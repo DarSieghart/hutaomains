@@ -80,23 +80,20 @@ session_start();
         <h1 class="text-white text-center text-4xl font-semibold">Bienvenido a HuTaoMains!</h1>
     </div>
         
-    
-    <!-- CAROUSEL -->
-    <div class="w-full flex justify-center items-center">
-        <section id="carousel-container" aria-label="Carousel" class="flex relative rounded-md w-[600px] h-[400px] overflow-hidden shadow-[rgba(0,0,0,0.4)] shadow-md">
-            <div id="carousel-images" class="flex flex-row transform ease-out">
-                <img class="imgdata w-[600px] h-[400px] object-cover" data-desc="" src="assets/img/Stars-Shining-Depths-official-wallpaper-genshin.jpg" alt="">
-                <img class="imgdata w-[600px] h-[400px] object-cover" data-desc="" src="assets/img/wallpaper_for_wanderer_.jpeg" alt="">
-                <img class="imgdata w-[600px] h-[400px] object-cover" data-desc="" src="assets/img/i-love-that-liyue-looks-so-beautiful-and-scenic-during-this-v0-w9ywf9by2qe81.png" alt="">
-            </div>
-            
-            <div class="user-controls flex justify-between text-white font-extrabold ">
-                <button class="user-controls z-10 absolute left-0 m-0 w-[3rem] h-full bg-gradient-to-r from-black to-transparent opacity-75" id="previous"><svg class="flex justify-center w-full"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M5 12l6 6" /><path d="M5 12l6 -6" /></svg></button>
-                <button class="user-controls z-10 absolute right-0  m-0 w-[3rem] h-full bg-gradient-to-l from-black to-transparent opacity-75" id="next"><svg class="rotate-180 flex justify-center w-full"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M5 12l6 6" /><path d="M5 12l6 -6" /></svg></button>
-            </div>
-        </section>
-    </div>
-    
+<div class="carousel-container">
+  <div class="carousel-item">
+    <img src="assets/img/WallpaperHome.jpg" alt="Imagen 1">
+  </div>
+  <div class="carousel-item">
+    <img src="assets/img/WallpaperWanderer.jpeg" alt="Imagen 2">
+  </div>
+  <div class="carousel-item">
+    <img src="imagen3.jpg" alt="Imagen 3">
+  </div>
+</div>
+<button id="prevBtn">Anterior</button>
+<button id="nextBtn">Siguiente</button>
+
     <?php } ?>
 
     <?php if (isset ($_SESSION['user'])) {?>
