@@ -121,14 +121,5 @@ session_start();
 
             
 </body>
-    
-    
-    <script src="assets/js/weapons.js"></script>
-   <script>  function dropdown() {
-            const dropdownAvatar = document.getElementById("dropdownAvatar")
-
-            dropdownAvatar.classList.toggle("hidden")
-   }
-   </script>
-
- </html>
+<script src="assets/js/weapons.js"></script>
+</html>
