@@ -1,11 +1,11 @@
-const lightswords = document.getElementById('lightswords')
-const spears = document.getElementById('spears')
-
-function mandoble() {
-    spears.classList.toggle('hidden')
+function Open_Weapons(BotonId) 
+{
+    document.querySelectorAll(".pop-up").forEach(popUp => popUp.classList.add('hidden')); // Hide all pop-ups with the new class
+    document.getElementById(BotonId).classList.toggle('hidden'); // Show the pop-up with the matching ID
 }
 
+function dropdown() {
+    const dropdownAvatar = document.getElementById("dropdownAvatar")
 
-function espada() {
-    lightswords.classList.toggle('hidden')
+    dropdownAvatar.classList.toggle("hidden")
 }
