@@ -47,6 +47,7 @@ session_start();
 </a>
 </a>
 </a>
+<!-- wtf? -->
             <?php } ?>
         </div>
    </nav>
@@ -112,7 +113,7 @@ session_start();
     </audio>
  
     <script>
-        
+
         const ee = document.getElementById('ee')  
         const audi = document.getElementById('audioee')
 

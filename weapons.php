@@ -11,19 +11,19 @@ session_start();
 </head>
 <style>
 .glow-button {
-border: none;
-outline: none;
-color: white;
-background-color: #9d174d;
-padding: 10px 20px;
-cursor: pointer;
-font-size: 16px;
-border-radius: 10px;
-transition: box-shadow 0.3s ease;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #9d174d;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
 }
-
+    
 .glow-button:hover {
-box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
 }
 </style>
 
@@ -34,7 +34,7 @@ box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
         <div class="container mx-auto flex items-center justify-between">
             <div class="flex items-center">
                 <a href="index.php">
-                    <img class="w-30 h-12 hover:scale-150 duration-100" src="assets/img/icon.png">
+                    <img class="w-30 h-12 hover:scale-105 duration-150" src="assets/img/icon.png">
                 </a>
 
                 <div class="px-60 flex items-center space-x-20">
@@ -68,9 +68,10 @@ box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
     <?php if (isset($_SESSION['user'])) { ?> 
    <div id="dropdownAvatar" class="z-10 absolute right-1 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
                 <div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
-                <div> <?= $_SESSION['user']['user']['name'] ?> </div>
-                <div class="font-medium truncate"><?= $_SESSION ['user']['user']['email'] ?></div>
+                    <div> <?= $_SESSION['user']['user']['name'] ?> </div>
+                    <div class="font-medium truncate"><?= $_SESSION ['user']['user']['email'] ?></div>
                 </div>
+                
                 <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownUserAvatarButton">
                 
                 <li>
@@ -79,47 +80,44 @@ box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
                 
                 </ul>
                 <div class="py-2">
-                <a href="logout.php" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                    <a href="logout.php" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
                 </div>
             </div>
 
             <?php } ?>
 
-            <div class="px-60 flex items-center space-x-20">
-                    <button onclick="mandoble()" class="glow-button flex-1 " > Mandoble </button>
-                    <div class="contents">
-                    <button onclick="espada()" class="glow-button flex-1 " > Espada Ligera </button>
-                    <button  class="glow-button flex-1 " > Arco </button>
-                    <button  class="glow-button flex-1 " > Lanza </button>
-                    <button  class="glow-button flex-1 " > Catalizador </button>
-
-                    </div>
-                    
-
+            <div class="px-60 flex items-center space-x-20 gap-x-1 ">
+                
+                <div class="contents [&>button]:flex-1 ">
+                    <button onclick="Open_Weapons('claymores')" class="glow-button" > Mandoble </button>
+                    <button onclick="Open_Weapons('lightswords')" class="glow-button" > Espada Ligera </button>
+                    <button onclick="Open_Weapons('bows')" class="glow-button" > Arco </button>
+                    <button onclick="Open_Weapons('spears')" class="glow-button" > Lanza </button>
+                    <button onclick="Open_Weapons('catalysts')" class="glow-button" > Catalizador </button>
+                </div>
             </div>
           
+    <!-- Pendiente componetizar -->
 
-    <div class="absolute w-full h-full">
+    <div class="absolute w-full h-full pop-up">
         <div id="spears" class="bg-gray-800 hidden w-1/2 p-4 rounded-md mx-auto h-1/2 overflow-y-auto">
            
             <form action="assets/Weapon" method="post" class="grid grid-cols-4 mx-auto gap-8 pt-5">
                 
-            <img src="assets\img\Weapons\Polearm\Blackcliff Pole.png" >
+                <img src="assets/img/Weapons/Polearm/Polearm.png" >
             </form>
         </div>
     </div>
 
-    <div class="absolute w-full h-full">
+    <div class="absolute w-full h-full pop-up">
         <div id="lightswords" class="bg-gray-800 hidden w-1/2 p-4 rounded-md mx-auto h-1/2 overflow-y-auto">
            
             <form action="assets/Weapon" method="post" class="grid grid-cols-4 mx-auto gap-8 pt-5">
                 
-            <img src="assets\img\Weapons\Polearm\Kitain Cross Spear.png" >
+                <img src="assets/img/Weapons/Sword/Sword.png" >
             </form>
         </div>
     </div>
-
-
 
             
 </body>
