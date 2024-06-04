@@ -102,7 +102,7 @@ session_start();
     <div class="absolute w-full h-auto">
         <div id="spears" class="bg-gray-800 hidden w-1/2 p-4 rounded-md mx-auto h-1/2 overflow-y-auto pop-up">
            
-            <form action="assets/Weapon" method="post" class="grid grid-cols-4 mx-auto gap-8 pt-5">
+            <form action="assets/Weapons" method="post" class="grid grid-cols-4 mx-auto gap-8 pt-5">
                 
                 <img src="assets/img/Weapons/Polearm/Polearm.png" >
             </form>
@@ -112,7 +112,7 @@ session_start();
     <div class="absolute w-full h-auto">
         <div id="lightswords" class="bg-gray-800 hidden w-1/2 p-4 rounded-md mx-auto h-1/2 overflow-y-auto pop-up">
            
-            <form action="assets/Weapon" method="post" class="grid grid-cols-4 mx-auto gap-8 pt-5">
+            <form action="assets/Weapons" method="post" class="grid grid-cols-4 mx-auto gap-8 pt-5">
                 
                 <img src="assets/img/Weapons/Sword/Sword.png" >
             </form>

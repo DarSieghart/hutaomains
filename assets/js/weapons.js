@@ -8,4 +8,4 @@ function dropdown() {
     const dropdownAvatar = document.getElementById("dropdownAvatar")
 
     dropdownAvatar.classList.toggle("hidden")
-}
+}git 
