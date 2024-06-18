@@ -8,7 +8,7 @@
 <body>
 
     <header>
-    <nav class="py-4 text-white bg-[#3c070f] border-b border-gray-500">
+    <nav class="py-4 text-white bg-[#393E46] border-b border-gray-500">
         <div class="container mx-auto flex items-center justify-between">
             <div class="flex items-center">
                 <a href="index.php">
