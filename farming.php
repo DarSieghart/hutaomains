@@ -12,14 +12,13 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <script src="assets/js/index.js"></script>
 </head>
-<body class="overflow-x-hidden bg-[#240f0c]">
-   <nav class="py-4 text-white bg-[#3c070f] border-b border-gray-500">
+<body class="overflow-x-hidden  bg-[#393E46]">
+   <nav class="py-4 text-white  bg-[#393E46] border-b border-red-500">
         <div class="container mx-auto flex items-center justify-between">
             <div class="flex items-center">
-                <a href="index.php">
-                    <img class="animate-spin w-20 h-20 hover:scale-110 duration-500" src="assets/img/logo.png">
-                </a>
-
+            <a href="index.php">
+                    <img class="w-30 h-12 hover:scale-105 duration-150" src="assets/img/icon.png">
+            </a>
                 <div class="px-10 flex items-center space-x-5">
                     
                 
@@ -32,7 +31,7 @@
 <form>   
   
     <div class="relative">
-        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none bg-[#222831]" >
             <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
             </svg>
@@ -78,18 +77,19 @@
 
 
    <div class="flex flex-row">
-       <aside class="overflow-y-scroll overflow-auto py-4 h-[500px] p-1 m-4 rounded-md bg-rose-600 w-1/6 ">
+       <aside class="overflow-y-scroll overflow-auto py-4 h-[500px] p-1 m-4 rounded-md bg-[#222831] w-1/6 ">
             
             <div class="">
-                <a href="http/localhost/character/<?= $character ?>" id="mostrarBoton" class="bg-zinc-800 rounded-md px-9 text-center flex items-center text-white font-bold m-4 "> <img  src="https://pm1.aminoapps.com/7787/e631d93cc66f03474724492c8a189033cd5aea9cr1-750-749v2_uhq.jpg" class="w-16 h-16 object-cover object-center" alt=""> Hu Tao</a>
+                <a href="http/localhost/character/<?= $character ?>" id="mostrarBoton" class="bg-[#DA0037] rounded-md px-9 text-center flex items-center text-white font-bold m-4 "> <img  src="https://pm1.aminoapps.com/7787/e631d93cc66f03474724492c8a189033cd5aea9cr1-750-749v2_uhq.jpg" class="w-16 h-16 object-cover object-center" alt=""> Hu Tao</a>
             </div>
         </aside>
             <!-- Modified  -->
-        <div id="div" class="z-10 bg-[#ef4444] h-3/4 w-3/5 rounded-md py-4 p-2 m-4 flex flex-row">
-            <h1> Ruta de Farmeo</h1>
-            <div>
-                <a href="https://youtu.be/OXwAZ8yvD7I" class="bg-blue-600 border-2 rounded-none">Ver Ruta</a>
-            </div>
+        <div id="div" class="z-10 bg-[#222831]  h-3/4 w-3/5 rounded-md py-4 p-2 m-4 flex flex-row text-white space-x-2">Ruta de Farmeo
+                
+            
+        <div>
+    <a href="https://youtu.be/OXwAZ8yvD7I" class="bg-transparent border-1 rounded-none text-blue-600"> Ver Ruta</a>
+        </div>
             <!--<div>
                 <iframe src="https://youtu.be/OXwAZ8yvD7I" frameborder="0"></iframe>
             </div>

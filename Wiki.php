@@ -9,12 +9,12 @@ session_start();
     <link rel="stylesheet" href="assets/css/index.css"> 
     <script src="assets/js/index.js"></script>
 </head>
-<body class="overflow-x-hidden bg-[#18181b]">
-    <nav class="py-4 text-white border-b border-gray-500 w-full">
+<body class="overflow-x-hidden bg-[#393E46]">
+    <nav class="py-4 text-white border-b border-red-500 w-full">
         <div class="container mx-auto flex items-center justify-between">
             <div class="flex items-center">
                 <a href="index.php">
-                    <img class="animate-spin w-20 h-20 hover:scale-105 duration-100" src="assets/img/logo.png">
+                    <img class="w-30 h-12 hover:scale-105 duration-100" src="assets/img/icon.png">
                 </a>
                 <div class="px-10 flex items-center space-x-5">
                     
@@ -57,19 +57,16 @@ session_start();
         <?php } ?>
 
  <div class="flex">
-    <aside class=" overflow-y-scroll overflow-auto py-4 h-[500px] p-1 m-4 rounded-md bg-rose-600 w-1/6 ">
+    <aside class=" overflow-y-scroll overflow-auto py-4 h-[500px] p-1 m-4 rounded-md bg-[#222831] w-1/6 ">
         <div class="">
-            <button id="mostrarBoton"   class="bg-zinc-800 rounded-md px-9 text-center flex items-center text-white font-bold m-4 "> <img  src="https://pm1.aminoapps.com/7787/e631d93cc66f03474724492c8a189033cd5aea9cr1-750-749v2_uhq.jpg" class="w-16 h-16 object-cover object-center" alt=""> Hu Tao</button>
+            <button id="mostrarBoton" class="bg-[#DA0037] rounded-md px-9 text-center flex items-center text-white font-bold m-4 "> <img  src="https://pm1.aminoapps.com/7787/e631d93cc66f03474724492c8a189033cd5aea9cr1-750-749v2_uhq.jpg" class="w-16 h-16 object-cover object-center" alt=""> Hu Tao</button>
                 <div id="informacion" class="hidden mt-4 p-4 bg-white rounded shadow">
-                    <h1>aaaaa
-                
-                    </h1>
-            
+                   
                 </div>
 
             </button>
             
-            <button id="mostrarBoton"   class="bg-zinc-800 rounded-md px-9 text-center flex items-center text-white font-bold m-4 "> <img  src="https://pm1.aminoapps.com/7787/e631d93cc66f03474724492c8a189033cd5aea9cr1-750-749v2_uhq.jpg" class="w-16 h-16 object-cover object-center" alt=""> Hu Tao</button>
+            <button id="mostrarBoton"   class="bg-[#DA0037] rounded-md px-9 text-center flex items-center text-white font-bold m-4 "> <img  src="https://pm1.aminoapps.com/7787/e631d93cc66f03474724492c8a189033cd5aea9cr1-750-749v2_uhq.jpg" class="w-16 h-16 object-cover object-center" alt=""> Hu Tao</button>
                 <div id="informacion" class="hidden mt-4 p-4 bg-white rounded shadow">
    
             
@@ -77,7 +74,7 @@ session_start();
 
             </button>
 
-            <button id="mostrarBoton"   class="bg-zinc-800 rounded-md px-9 text-center flex items-center text-white font-bold m-4 "> <img  src="https://pm1.aminoapps.com/7787/e631d93cc66f03474724492c8a189033cd5aea9cr1-750-749v2_uhq.jpg" class="w-16 h-16 object-cover object-center" alt=""> Hu Tao</button>
+            <button id="mostrarBoton"  class="bg-[#DA0037] rounded-md px-9 text-center flex items-center text-white font-bold m-4 "> <img  src="https://pm1.aminoapps.com/7787/e631d93cc66f03474724492c8a189033cd5aea9cr1-750-749v2_uhq.jpg" class="w-16 h-16 object-cover object-center" alt=""> Hu Tao</button>
             <div id="informacion" class="hidden mt-4 p-4 bg-white rounded shadow">
 
         
@@ -85,14 +82,14 @@ session_start();
 
         </button>
         
-        <button id="mostrarBoton"   class="bg-zinc-800 rounded-md px-9 text-center flex items-center text-white font-bold m-4 "> <img  src="https://pm1.aminoapps.com/7787/e631d93cc66f03474724492c8a189033cd5aea9cr1-750-749v2_uhq.jpg" class="w-16 h-16 object-cover object-center" alt=""> Hu Tao</button>
+        <button id="mostrarBoton"   class="bg-[#DA0037] rounded-md px-9 text-center flex items-center text-white font-bold m-4 "> <img  src="https://pm1.aminoapps.com/7787/e631d93cc66f03474724492c8a189033cd5aea9cr1-750-749v2_uhq.jpg" class="w-16 h-16 object-cover object-center" alt=""> Hu Tao</button>
             <div id="informacion" class="hidden mt-4 p-4 bg-white rounded shadow">
 
         
             </div>
 
         </button>
-        <button id="mostrarBoton"   class="bg-zinc-800 rounded-md px-9 text-center flex items-center text-white font-bold m-4 "> <img  src="https://pm1.aminoapps.com/7787/e631d93cc66f03474724492c8a189033cd5aea9cr1-750-749v2_uhq.jpg" class="w-16 h-16 object-cover object-center" alt=""> Hu Tao</button>
+        <button id="mostrarBoton"   class="bg-[#DA0037] rounded-md px-9 text-center flex items-center text-white font-bold m-4 "> <img  src="https://pm1.aminoapps.com/7787/e631d93cc66f03474724492c8a189033cd5aea9cr1-750-749v2_uhq.jpg" class="w-16 h-16 object-cover object-center" alt=""> Hu Tao</button>
         <div id="informacion" class="hidden mt-4 p-4 bg-white rounded shadow">
 
     
@@ -101,9 +98,10 @@ session_start();
     </button>
 
     </aside>
-    <div id="div" class="z-10 bg-[#ef4444] h-3/4 w-2/3 rounded-md py-4 p-2 m-4 flex flex-row text-white space-x-2">
-            <div class="justify-center font-bold"> Composiciones
-                <div class="h-1/3 w-full bg-rose-600 flex flex-row justify-start rounded-t-md items-center px-2">
+    <div id="div" class="z-10 bg-[#222831] h-5/7 w-2/3 rounded-md py-8 p-4 m-8 flex flex-row text-white space-x-2">
+            <div class="justify-center font-bold">Composiciones
+                
+                <div class="h-1/3 w-full bg-[#A94438] flex flex-row justify-start rounded-t-md items-center px-2">
                     <div class="w-1/4 flex items-center justify-center">
                         <img src="assets/img/Character/Liyue/Shenhe.png" class="bg-zinc-800 rounded-md p-2 border-gray-700 border-2" alt="">
                     </div>
