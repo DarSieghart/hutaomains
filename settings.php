@@ -40,6 +40,7 @@ session_start();
                 <img src="assets\img\Character\Fontaine\Freminet.png">
                 <img src="assets\img\Character\Fontaine\Lynette.png">
                 <img src="assets\img\Character\Fontaine\Lyney.png">
+                <img src="assets/img/Character/Snezhnaya/Arlecchino.png">
                 <img src="assets\img\Character\Fontaine\Neuvillette.png">
                 <img src="assets\img\Character\Fontaine\Wriothesley.png">
                 <img src="assets\img\Character\Inazuma/Arataki itto.png">
@@ -62,8 +63,56 @@ session_start();
                 <img src="assets\img\Character\Liyue/Chongyun.png">
                 <img src="assets\img\Character\Liyue/Ganyu.png">
                 <img src="assets\img\Character\Liyue/Hu Tao.png">
-                <img src="assets\img\Character\Liyue/.png">
-
+                <img src="assets\img\Character\Liyue/Keqing.png">
+                <img src="assets/img/Character/Liyue/Ningguang.png">
+                <img src="assets/img/Character/Liyue/Qiqi.png">
+                <img src="assets/img/Character/Liyue/Shenhe.png">
+                <img src="assets/img/Character/Liyue/Tartaglia.png">
+                <img src="assets/img/Character/Liyue/Xiangling.png">
+                <img src="assets/img/Character/Liyue/Xiao.png">
+                <img src="assets/img/Character/Liyue/Xingqiu.png">
+                <img src="assets/img/Character/Liyue/Xinyan.png">
+                <img src="assets/img/Character/Liyue/Yanfei.png">
+                <img src="assets/img/Character/Liyue/Yaoyao.png">
+                <img src="assets/img/Character/Liyue/Yelan.png">
+                <img src="assets/img/Character/Liyue/Yun Jin.png">
+                <img src="assets/img/Character/Liyue/Zhongli.png">
+                <img src="assets/img/Character/Mondstadt/Albedo.png">
+                <img src="assets/img/Character/Mondstadt/Aloy.png">
+                <img src="assets/img/Character/Mondstadt/Amber.png">
+                <img src="assets/img/Character/Mondstadt/Barbara.png">
+                <img src="assets/img/Character/Mondstadt/Bennett.png">
+                <img src="assets/img/Character/Mondstadt/Diluc.png">
+                <img src="assets/img/Character/Mondstadt/Diona.png">
+                <img src="assets/img/Character/Mondstadt/Eula.png">
+                <img src="assets/img/Character/Mondstadt/Fischl.png">
+                <img src="assets/img/Character/Mondstadt/Jean.png">
+                <img src="assets/img/Character/Mondstadt/Kaeya.png">
+                <img src="assets/img/Character/Mondstadt/Lisa.png">
+                <img src="assets/img/Character/Mondstadt/Klee.png">
+                <img src="assets/img/Character/Mondstadt/Lisa.png">
+                <img src="assets/img/Character/Mondstadt/Mika.png">
+                <img src="assets/img/Character/Mondstadt/Mona.png">
+                <img src="assets/img/Character/Mondstadt/Noelle.png">
+                <img src="assets/img/Character/Mondstadt/Razor.png">
+                <img src="assets/img/Character/Mondstadt/Rosaria.png">
+                <img src="assets/img/Character/Mondstadt/Sucrose.png">
+                <img src="assets/img/Character/Mondstadt/Venti.png">
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
 
 
             </form>
