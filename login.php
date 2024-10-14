@@ -64,8 +64,9 @@ session_start();
 
                 <button  class="glow-button" > Iniciar Sesion </button>
 
-                <button href="http://localhost/HuTaoMains/singup.php" class="glow-button">Crea tu cuenta aqui!</button>
+                
             </form>
+            <a href="http://localhost/HuTaoMains/singup.php" class="glow-button">Crea tu cuenta aqui!</a>
         </div>
     </div>
     
