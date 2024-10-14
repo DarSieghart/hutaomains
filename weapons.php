@@ -119,7 +119,16 @@ session_start();
         </div>
     </div>
 
-            
+    <div class="container mt-10 mx-auto">
+  <h2 class="text-center text-xl font-bold mt-4 text-white">Nuevas armas</h2>
+  <div class="grid grid-cols-4 mt-4 place-items-center">
+    <img src="assets/img/Weapons/Polearm/5 stars/Crimson Moon's Semblance.png" alt="Imagen 1" class="w-48 h-48 bg-zinc-800 p-2 rounded-tr-md border-gray-700 border-2">
+    <img src="assets/img/Weapons/Sword/5 stars/Uraku Misugiri.png" alt="Imagen 2" class="w-48 h-48 bg-zinc-800 p-2 rounded-tr-md border-gray-700 border-2">
+    <img src="assets/img/Weapons/Catalyst/5 stars/Crane's Echoing Call.png" alt="Imagen 3" class="w-48 h-48 bg-zinc-800 p-2 rounded-tr-md border-gray-700 border-2">
+    <img src="assets/img/Weapons/Claymore/5 stars/Verdict.png" alt="Imagen 4" class="w-48 h-48 bg-zinc-800 p-2 rounded-tr-md border-gray-700 border-2">
+  </div>
+</div>
+
 </body>
 <script src="assets/js/weapons.js"></script>
 </html>
