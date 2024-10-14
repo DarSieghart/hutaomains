@@ -3,6 +3,7 @@
 include_once "../db/connection.php";
 
 $email = strip_tags($_POST['email']);
+
 $user = $connection->query("SELECT * FROM users WHERE email = '$email'")->fetch_assoc();
 
 if (!isset($user)) {

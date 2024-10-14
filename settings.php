@@ -33,6 +33,7 @@ session_start();
 
     <div class="absolute w-full h-full">
         <div id="showable" class="bg-gray-800 hidden w-1/2 p-4 rounded-md mx-auto h-1/2 overflow-y-auto">
+
             <span class="text-2xl font-semibold text-gray-300"> <?= $_SESSION['user']['user']['name'] ?> </span>
 
             <form action="store/store_profile.php" method="post" class="grid grid-cols-4 mx-auto gap-8 pt-5">
@@ -121,6 +122,7 @@ session_start();
 
 <?php if (isset($_SESSION['user'])) { ?> 
     
+    <a href="" class="py-2.5 px-9 rounded-md bg-rose-600 hover:bg-rose-700 font-semibold"> Edit </a>
 
     <div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
     <div> <?= $_SESSION['user']['user']['name'] ?> </div>
